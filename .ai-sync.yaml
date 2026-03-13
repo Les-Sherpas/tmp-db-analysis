@@ -1,6 +1,7 @@
 sources:
-  source: git@github.com:Les-Sherpas/ai-sync-config-dev.git
-  version: v1.4.0
+  sherpas-dev:
+    source: git@github.com:Les-Sherpas/ai-sync-config-dev.git
+    version: v1.4.0
 
 agents:
   - sherpas-dev/cloud_infrastructure_engineer
