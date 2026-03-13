@@ -1,0 +1,33 @@
+sources:
+  source: git@github.com:Les-Sherpas/ai-sync-config-dev.git
+  version: v1.4.0
+
+agents:
+  - sherpas-dev/cloud_infrastructure_engineer
+  - sherpas-dev/senior_software_engineer
+
+skills:
+  - sherpas-dev/create-rule
+  - sherpas-dev/create-skill
+  - sherpas-dev/create-subagent
+  - sherpas-dev/db-read-only-access
+  - sherpas-dev/aws-read-only-access
+
+commands:
+  - sherpas-dev/session_summary.md
+  - sherpas-dev/agent_rollout_strategy.md
+  - sherpas-dev/hardening_plan_loop.md
+  - sherpas-dev/claim_validator.md
+  - sherpas-dev/claim_validator_rds.md
+
+mcp-servers:
+  - sherpas-dev/aws-pricing
+  - sherpas-dev/aws-documentation
+  - sherpas-dev/aws-cloudwatch
+  - sherpas-dev/context7
+  - sherpas-dev/exa
+  - sherpas-dev/fetch
+
+settings:
+  mode: normal
+  subagents: true
